@@ -67,14 +67,15 @@ As the box is put together, this might be the perfect time for a paint job. Raw 
 #### 3. Mounting Power Supply
 The power supply of your choice is most convenient to be mounted before the rails are added. Make sure it is well secured and will not come loose when the case is moved around! I recommend you put it in the center to get a better center of gravity. This step is skipped if a power distribution module is used instead.
 In any case it is quintessential that you compare the expected power draw of your modules to the power solution's capabilities. You can use [the Modulargrid website](https://www.modulargrid.net/) to plan out your rack and get a good estimate on the power draw. As a good rule of thumb, I would suggest mounting twice the power, since power peaks and power supplies' reduced efficiency in elevated temperatures can cause some trouble like brownouts and other inconveniences. 
-![Bokkusu with the power bus installed](https://github.com/drChungus/Bokkusu/blob/a9f2d587c1d22ba212f90f18b7bbaecec2261af5/07_Production/Images/IMG_20220322_211800.jpg)
-
 
 #### 4. Mounting Power Bus
 The power bus will distribute power throughout your case. Once again, the choice is your, I was using my older design for a modular and expandable, 5V enabled power bus board module:
 ![busModule](https://github.com/drChungus/Bokkusu/blob/a9f2d587c1d22ba212f90f18b7bbaecec2261af5/07_Production/Images/IMG_20200105_203700.jpg)
 
-The number of modules and free slots on the bus will dictate if you need one or two buses. I tend to have a lot of skinny modules that give a 
+The number of modules and free slots on the bus will dictate if you need one or two buses. You can either put one in the middle or one for each row if more connectors are needed. I tend to have a lot of skinny modules that consume a more power per HP, but the RT65-B can take care of them pretty flawlessly so far.
+
+Here is a picture of the case with the PSU and the bus boards installed:
+![Bokkusu with the power bus installed](https://github.com/drChungus/Bokkusu/blob/a9f2d587c1d22ba212f90f18b7bbaecec2261af5/07_Production/Images/IMG_20220322_211800.jpg)
 
 #### 5. Wiring
 **DISCLAMER: Mains voltage is no joke! You can be seriously hurt durint the assembly or later, when using the case if the wiring is not done properly. Feel free to ask for assistance from someone with more experience or use a low-voltage input to the case.**
