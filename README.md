@@ -6,7 +6,7 @@ A simple, yet elegant DIY Eurorack Case
 Bokkusu (ボックス, "box" in Japanese) is a DIY case for Eurorack format. The main design principle was to create a no-compromise case for your Eurorack modules. Parts are easy to manufacture locally as all plywood panels are rectangle shapes, which is easy to order from a local woodworking shop. The box itself can then be assembled in your home with minimal tools and skills required. Finally, the rails and electronics can be added to finish up the build.
 
 The box itself is made out of plywood cut precisely. The default size for the case is 6U by 84 HP. This can be tweaked by modifying the dimensions in the BOM sheet, however this is not yet tested or advised. It is highly recommended you get a good understanding of what parts go where as modified dimension can propagate to related parts.
-The power supply to be used is outside the scope of this project, but I can recommend using something like the [RT-65B by MEAN WELL](https://www.meanwell-web.com/en-gb/ac-dc-triple-output-enclosed-power-supply-output-rt--65b). If you do not feel confident wiring mains voltage in your case having a wall adapter and a power distribution module is a safe bet, so you can avoid routing mains into the case. For this the uZEUS with a Flying Busboard or something similar could be a nice solution.
+The power supply to be used is outside the scope of this project, but I can recommend using something like the [RT-65B by MEAN WELL](https://www.meanwell-web.com/en-gb/ac-dc-triple-output-enclosed-power-supply-output-rt--65b). If you do not feel confident wiring mains voltage in your case having a wall adapter and a power distribution module is a safe bet, so you can avoid routing mains into the case. For this the [Tiptop Audio uZEUS](https://tiptopaudio.com/uzeus/) with a Flying Busboard or something similar could be a nice solution.
 
 ## Parts Needed
 The parts needed for the construction can be divided into two groups: required and optional. Optional parts are nice to have, but are not needed for a functional case. However, it is recommended to consider adding these as the full potential of Bokkusu can be achieved and user experience in general can be improved greatly. There might be some additional parts and mods not listed here you can come up with that fits your personal needs.
@@ -47,10 +47,10 @@ Here is an incomplete list of tools you will need to put the wooden box together
 - pencil
 
 
-### 1, Order Plywood Parts
+#### 1, Order Plywood Parts
 You should start by ordering the plywood parts from the local woodwork shop. The [BOM sheet](https://github.com/drChungus/Bokkusu/blob/92de9adcf3d267ceded35ebd778eedd955a3f600/05_Native/Part%20List%20and%20Sizes.xlsx) contains all necessary parts for a box to be built with. This is for the back and the front cover. The dimensions are fine tuned to a 6U (2 rows) case in 84HP width. Yo can change these dimensions to your liking to get a case that better fits your needs: you can increase the size to get more rows, more HP, and even can make the back more shallow. The default sizes provide 100mm space behind the modules' front panels and a bit of breathing room on the sides. I personally recommend double checking the size of the rails you will use as oftentimes these are cut with a bit of an extra, so verify if your rails will fit the case's width.
 
-### 2. Box Assembly: 
+#### 2. Box Assembly: 
 The box is made out of two main parts: the back (main case) and a front cover. They are very similar in construction. Both parts are made out of 2 shells neatly fitting into each other. The inner shells overlap, this ensures that the front will lock into the back.
 
 For the assembly the use of small sized nails are recommended. I put nails in every 100 mm or so to fix the planes to each other. When putting in the nails, make sure that the nails are aligned in the center and go in a perpendicular direction. 
@@ -64,22 +64,26 @@ There is also a [3D PDF](https://github.com/drChungus/Bokkusu/blob/409654e104498
 
 As the box is put together, this might be the perfect time for a paint job. Raw plywood most be treated properly to get a long lasting product. Feel free to experiment with different glazes or solid colors - the woodwork shop will most probably give you the spares from the plywood cutting.
 
-### 3. Mounting Power Supply
+#### 3. Mounting Power Supply
 The power supply of your choice is most convenient to be mounted before the rails are added. Make sure it is well secured and will not come loose when the case is moved around! I recommend you put it in the center to get a better center of gravity. This step is skipped if a power distribution module is used instead.
 In any case it is quintessential that you compare the expected power draw of your modules to the power solution's capabilities. You can use [the Modulargrid website](https://www.modulargrid.net/) to plan out your rack and get a good estimate on the power draw. As a good rule of thumb, I would suggest mounting twice the power, since power peaks and power supplies' reduced efficiency in elevated temperatures can cause some trouble like brownouts and other inconveniences. 
 ![Bokkusu with the power bus installed](https://github.com/drChungus/Bokkusu/blob/a9f2d587c1d22ba212f90f18b7bbaecec2261af5/07_Production/Images/IMG_20220322_211800.jpg)
 
 
-### 4. Mounting Power Bus
+#### 4. Mounting Power Bus
 The power bus will distribute power throughout your case. Once again, the choice is your, I was using my older design for a modular and expandable, 5V enabled power bus board module:
 ![busModule](https://github.com/drChungus/Bokkusu/blob/a9f2d587c1d22ba212f90f18b7bbaecec2261af5/07_Production/Images/IMG_20200105_203700.jpg)
 
 The number of modules and free slots on the bus will dictate if you need one or two buses. I tend to have a lot of skinny modules that give a 
 
-5: DISCLAMER: Mains voltage is no joke, you can be seriously hurt if the wiring is not performed properly. Feel free to ask for assistance from someone with more experience or use a low-voltage input to the case.
+#### 5. Wiring
+**DISCLAMER: Mains voltage is no joke! You can be seriously hurt durint the assembly or later, when using the case if the wiring is not done properly. Feel free to ask for assistance from someone with more experience or use a low-voltage input to the case.**
+
 I have opted for the MEAN WELL RT-65B for the power duties to be done. This 65W supply delivers sufficient current on +12V, -12V and +5V lines, that conveniently matches the Eurorack power lines. The wiring from the mains connector to the power supply and then to the Eurorack power bus can be seen below. A switch and a fuse can be added.
 ![Wiring diagram](https://github.com/drChungus/Bokkusu/blob/409654e104498041dc1a0ab759a63892f6ceada7/05_Native/Drawings/wiringDiagram.png)
 
+#### Bells and whistles
+If you made it to this point, the core build is completed. Try adding a handle. Or a latch for thr front cover. Ruffer feet. Stickers. LED lights.... The only léimit to features and customization really is your imagination!
 
 
 ## Images
