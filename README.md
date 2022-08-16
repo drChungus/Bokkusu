@@ -45,14 +45,20 @@ Here is an animation showing how the planes are put together to form a two layer
 
 https://user-images.githubusercontent.com/43809251/184827646-06c8e346-b369-46a6-9610-f2ae52bee6b0.mp4
 
+As an alternative there is a [3D PDF](https://github.com/drChungus/Bokkusu/blob/409654e104498041dc1a0ab759a63892f6ceada7/06_Preview/3D%20PDF/MAIN.PDF) showing how the parts are assembled. This is the most convenient way to examine the consructionin 3D.
+
 3: with threaded insert or nuts
 4:
-5: wiring diagram
-![In it's full glory](https://github.com/drChungus/Bokkusu/blob/main/07_Production/Images/DSC_0013.JPG?raw=true)
+5: DISCLAMER: Mains voltage is no joke, you can be seriously hurt if the wiring is not performed properly. Feel free to ask for assistance from someone with more experience or use a low-voltage input to the case.
+I have opted for the MEAN WELL RT-65B for the power duties to be done. This 65W supply delivers sufficient current on +12V, -12V and +5V lines, that conveniently matches the Eurorack power lines. The wiring from the mains connector to the power supply and then to the Eurorack power bus can be seen below. A switch and a fuse can be added.
+![Wiring diagram](https://github.com/drChungus/Bokkusu/blob/409654e104498041dc1a0ab759a63892f6ceada7/05_Native/Drawings/wiringDiagram.png)
+
 
 
 ## Images
 ![Loaded and ready 2 go](https://github.com/drChungus/Bokkusu/blob/main/07_Production/Images/DSC_0147.JPG?raw=true)
+![In it's full glory](https://github.com/drChungus/Bokkusu/blob/main/07_Production/Images/DSC_0013.JPG?raw=true)
+![Closed closeup](https://github.com/drChungus/Bokkusu/blob/main/07_Production/Images/DSC_0014%20(2).JPG?raw=true)
 
 ## Conclusion
 Bokkusu is a high value, customizable alternative for commercially available Eurorack cases. As many build their own cases tailored for their own needs this project can be considered a solid foundation for a cost-effective and hackable solution.
