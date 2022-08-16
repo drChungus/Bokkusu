@@ -27,7 +27,7 @@ The parts needed for the construction can be divided into two groups: required a
 
 ## Assembly
 The steps advised to manufacture the case are as follows:
-1. Order plywood panels from local woodworking shop based on the [BOM sheet]()
+1. Order plywood panels from local woodworking shop based on the [BOM sheet](https://github.com/drChungus/Bokkusu/blob/92de9adcf3d267ceded35ebd778eedd955a3f600/05_Native/Part%20List%20and%20Sizes.xlsx)
 2. Assemble the plywood box back and front using nails and wood glue.
 3. Mounting power supply
 4. Mounting power bus
@@ -48,11 +48,11 @@ https://user-images.githubusercontent.com/43809251/184827646-06c8e346-b369-46a6-
 3: with threaded insert or nuts
 4:
 5: wiring diagram
-
+![In it's full glory](https://github.com/drChungus/Bokkusu/blob/main/07_Production/Images/DSC_0013.JPG?raw=true)
 
 
 ## Images
-TODO
+![Loaded and ready 2 go](https://github.com/drChungus/Bokkusu/blob/main/07_Production/Images/DSC_0147.JPG?raw=true)
 
 ## Conclusion
 Bokkusu is a high value, customizable alternative for commercially available Eurorack cases. As many build their own cases tailored for their own needs this project can be considered a solid foundation for a cost-effective and hackable solution.
