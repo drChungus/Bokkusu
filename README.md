@@ -1,5 +1,6 @@
 # Bokkusu
 A simple, but elegant DIY Eurorack Case
+![Bokkusu with no modules in it](https://github.com/drChungus/Bokkusu/blob/main/07_Production/Images/IMG_20220323_113925.jpg?raw=true)
 
 ## Concept
 Bokkusu (ボックス, "box" in Japanese) is a DIY case for Eurorack format. The main design principle was to create a no-compromise case for your Eurorack modules. Parts are easy to manufacture locally as all plywood panels are rectangle shapes, which is easy to order from a local woodworking shop. The box itself can then be assembled in your home with minimal tools and skills required. Finally, the rails and electronics can be added to finish up the build.
