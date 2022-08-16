@@ -1,7 +1,8 @@
 # Kesu
-Simple, but elegant Eurrorack Case
+A simple, but elegant DIY Eurrorack Case
 
 ## Concept
+
 
 ## Manufacturing
 
