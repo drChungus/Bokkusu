@@ -8,5 +8,5 @@ Simple, but elegant Eurrorack Case
 ## Parts Needed
 
 ## Assembly
-
+collaps.mp4
 ## Conclusion
