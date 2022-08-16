@@ -20,7 +20,7 @@ The parts needed for the construction can be divided into two groups: required a
 - Mains power connector and power switch
 - Wooden front box: with an added cover the box can be closed to protect modules from dust or during transportation
 - Latches for the front cover
-- Handle: so the bow can be moved around conveniently
+- Handle: so the box can be moved around conveniently
 - Box corners: to protect the box and surfaces the case is placed on
 
 
@@ -41,7 +41,9 @@ The steps advised to manufacture the case are as follows:
 2: 2 shells, proper nails, paint job
 
 Here is an animation showing how the planes are put together to form a two layer box structure. Note that parts are overlapping in a way that adding the rails locks the side panels that lock the top, bottom and back planes:
+
 https://user-images.githubusercontent.com/43809251/184827646-06c8e346-b369-46a6-9610-f2ae52bee6b0.mp4
+
 3: with threaded insert or nuts
 4:
 5: wiring diagram
@@ -53,3 +55,4 @@ TODO
 
 ## Conclusion
 Bokkusu is a high value, customizable alternative for commercially available Eurorack cases. As many build their own cases tailored for their own needs this project can be considered a solid foundation for a cost-effective and hackable solution.
+Note that the two-layered shell and the use of plywood (depending on type of wood used) will result a quite heavy result, in other words, if mobility is a concern for you, the second layer of the wooden box structure should be omitted.
