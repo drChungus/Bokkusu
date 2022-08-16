@@ -4,7 +4,7 @@ A simple, but elegant DIY Eurorack Case
 
 ## Concept
 Bokkusu (ボックス, "box" in Japanese) is a DIY case for Eurorack format. The main design principle was to create a no-compromise case for your Eurorack modules. Parts are easy to manufacture locally as all plywood panels are rectangle shapes, which is easy to order from a local woodworking shop. The box itself can then be assembled in your home with minimal tools and skills required. Finally, the rails and electronics can be added to finish up the build.
-The box itself is made out of plywood cut precisely. The default size for the case is 9U by 84 HP. This can be tweaked by modifying the dimensions in the BOM sheet, however this is not yet tested or advised. It is highly recommended you get a good understanding of what parts go where as modified dimension can propagate to related parts.
+The box itself is made out of plywood cut precisely. The default size for the case is 6U by 84 HP. This can be tweaked by modifying the dimensions in the BOM sheet, however this is not yet tested or advised. It is highly recommended you get a good understanding of what parts go where as modified dimension can propagate to related parts.
 The power supply to be used is outside the scope of this project, but I can recommend using something like the RT-65B by MEAN WELL. If you do not feel confident wiring mains voltage in your case having a wall adapter and a power distribution module is a safe bet, so you can avoid routing mains into the case. For this the uZEUS with a Flying Busboard or something similar could be a nice solution.
 
 ## Parts Needed
@@ -37,18 +37,37 @@ The steps advised to manufacture the case are as follows:
 8. Adding front box latches
 9. Adding box corners
 
+As said, the construction is fairly simple and requires only little experience with woodworking and electronics. For your reference, if you feel comfortable to assembly an IKEA furniture, you should be good to go.
 
-1: 
-2: 2 shells, proper nails, paint job
+Here is an incomplete list of tools you will need to put the wooden box together and wire it up:
+- hammer
+- power drill
+- rafter square, aka "speed" square
+- pencil
+
+
+### 1, Order plywood parts
+You should start by ordering the plywood parts from the local woodwork shop. The [BOM sheet](https://github.com/drChungus/Bokkusu/blob/92de9adcf3d267ceded35ebd778eedd955a3f600/05_Native/Part%20List%20and%20Sizes.xlsx) contains all necessary parts for a box to be built with. This is for the back and the front cover. The dimensions are fine tuned to a 6U (2 rows) case in 84HP width. Yo can change these dimensions to your liking to get a case that better fits your needs: you can increase the size to get more rows, more HP, and even can make the back more shallow. The default sizes provide 100mm space behind the modules' front panels and a bit of breathing room on the sides. I personally recommend double checking the size of the rails you will use as oftentimes these are cut with a bit of an extra, so verify if your rails will fit the case's width.
+
+### 2. Box assembly: 
+The box is made out of two main parts: the back (main case) and a front cover. They are very similar in construction. Both parts are made out of 2 shells neatly fitting into each other. The inner shells overlap, this ensures that the front will lock into the back.
+
+For the assembly the use of small sized nails are recommended. I put nails in every 100 mm or so to fix the planes to each other. When putting in the nails, make sure that the nails are aligned in the center and go in a perpendicular direction. 
+![nails](https://github.com/drChungus/Bokkusu/blob/a63eebb536a812f9ce75dd27daeb7e407150857b/05_Native/Drawings/nailAllignment.png)
 
 Here is an animation showing how the planes are put together to form a two layer box structure. Note that parts are overlapping in a way that adding the rails locks the side panels that lock the top, bottom and back planes:
 
 https://user-images.githubusercontent.com/43809251/184827646-06c8e346-b369-46a6-9610-f2ae52bee6b0.mp4
 
-As an alternative there is a [3D PDF](https://github.com/drChungus/Bokkusu/blob/409654e104498041dc1a0ab759a63892f6ceada7/06_Preview/3D%20PDF/MAIN.PDF) showing how the parts are assembled. This is the most convenient way to examine the consructionin 3D.
+There is also a [3D PDF](https://github.com/drChungus/Bokkusu/blob/409654e104498041dc1a0ab759a63892f6ceada7/06_Preview/3D%20PDF/MAIN.PDF) showing how the parts are assembled. This is the most convenient way to examine the construction in 3D. Note that you will need to download the PDF file and most probably enable the 3D view specifically to make this work.
 
-3: with threaded insert or nuts
-4:
+As the box is put together, this might be the perfect time for a paint job. Raw plywood most be treated properly to get a long lasting product. Feel free to experiment with different glazes or solid colors - the woodwork shop will most probably give you the spares from the plywood cutting.
+
+### 3. Mounting power supply
+The power supply of your choice is most convenient to be mounted before the rails are added. Make sure it is well secured and will not come loose when the case is moved around! I recommend you put it in the center to get a better center of gravity. This step is skipped if a power distribution module is used instead.
+
+### 4. TODO
+
 5: DISCLAMER: Mains voltage is no joke, you can be seriously hurt if the wiring is not performed properly. Feel free to ask for assistance from someone with more experience or use a low-voltage input to the case.
 I have opted for the MEAN WELL RT-65B for the power duties to be done. This 65W supply delivers sufficient current on +12V, -12V and +5V lines, that conveniently matches the Eurorack power lines. The wiring from the mains connector to the power supply and then to the Eurorack power bus can be seen below. A switch and a fuse can be added.
 ![Wiring diagram](https://github.com/drChungus/Bokkusu/blob/409654e104498041dc1a0ab759a63892f6ceada7/05_Native/Drawings/wiringDiagram.png)
